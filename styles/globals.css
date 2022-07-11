@@ -126,6 +126,10 @@ width: 100%;
   color: black;
 }
 
+.layout{
+  overflow: hidden;
+}
+
 .hero-banner-container{
   padding: 100px 40px;
   background-color: #dcdcdc;
@@ -133,8 +137,8 @@ width: 100%;
   height: 500px;
   line-height: 0.9; 
   width: 100%;
-  margin:0 
-
+  margin:0 ;
+  
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
@@ -214,9 +218,9 @@ text-align: end;
   position: relative;
   height: 400px;
   line-height: 1; 
-  color: white;
-  width: 100%;
+  color: white;;
   margin-top: 120px;
+
 }
 .banner-desc{
   display: flex ;
@@ -668,6 +672,8 @@ margin-top: 160px;
 @media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;
+    width: 100vw !important;
+    margin: 0 !important;
   }
   .hero-banner-image{
     width: 77%;
